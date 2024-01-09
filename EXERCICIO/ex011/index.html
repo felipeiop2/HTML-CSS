@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens Dinamica</h1>
+    <p>Tente abrir este site em varios dispositivos</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagen grande">
+    </picture>
+    <h1>melhor mc </h1>
+    <p>Mc Kevin</p>
+    <audio src="midia/mckevin.mp3.mp3" controls autoplay></audio>
+    <audio preload="none" autoplay controls>
+        <source src="midia/marrenta.mp3" type="audio/mpeg">
+
+    </audio>
+<p><a download="midia/marrenta.mp3" type="audio/mpeg">Seu navegardor nao suportou</a></p>    
+</body>
+</html>

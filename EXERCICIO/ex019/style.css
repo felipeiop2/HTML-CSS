@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face {
+    font-family:oswald;
+    src: url(Oswald-VariableFont_wght.ttf) format(truetype);
+}
+body{
+    font: normal normal 1em arial;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color: #FF4500;
+}
+h1#meupau{
+    color: aqua;
+    text-align:end;
+
+}
+h2{
+  color: blueviolet;  
+}
+p {
+    text-indent: 10px;
+    
+}
+h2#p12{
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    width:1450px;
+    border-radius: 20px;
+    height: 30px;
+    box-shadow: 20px;
+
+}
+p.p13{
+    text-align: center;
+    font-family:oswald;
+    font-weight: normal;
+    font-style: normal;
+    color: white;
+    background-color: blueviolet;
+    width: auto;
+    border-radius: 20px;
+    height: 30px;
+    
+}
