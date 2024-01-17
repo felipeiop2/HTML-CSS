@@ -46,8 +46,12 @@ section.imagem{
     background-color:rgba(0, 0, 0, 0.192) ;
 }
 section.imagem p{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.178);
     width: 300px;
+    color: white;
+    position:relative;
+    top:73px;
+    font-size: 1.5em;
 }
 section#imagem1{
     background-image: url(imagens/background001.jpg);
@@ -63,5 +67,7 @@ section.imagem{
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 1px 3px 16px black;
+    max-height: 1000px;
+    min-height: 500px;
     
 }
