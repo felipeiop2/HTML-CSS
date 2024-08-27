@@ -1,0 +1,18 @@
+.flex-colum{
+    display: flex;
+    background-color: violet;
+    flex-direction: column;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.box{
+    height: 100px;
+    margin: 5px auto;
+    width: 30%;
+    border: 1px solid red;
+}
